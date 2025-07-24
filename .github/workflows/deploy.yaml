@@ -3,7 +3,7 @@ name: Deploy Hugo site to GitHub Pages
 on:
   push:
     branches:
-      - main  # измените, если ваша рабочая ветка называется иначе
+      - main
 
 jobs:
   deploy:
@@ -12,13 +12,13 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v3
         with:
-          submodules: true  # подтягивает тему
-          fetch-depth: 0    # нужно для GitInfo
+          submodules: true
+          fetch-depth: 0
 
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v2
         with:
-          hugo-version: '0.125.4' # последняя стабильная версия
+          hugo-version: '0.125.4'
 
       - name: Build site
         run: hugo --minify
