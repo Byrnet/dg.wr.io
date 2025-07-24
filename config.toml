@@ -1,22 +1,8 @@
 baseURL = "https://byrnet.github.io/dg.wr.io"
 languageCode = "en-us"
-title = "Your Site Title"
+title = "Alex's Digital Garden"
 theme = "hugo-theme-cleanwhite"
-relativeURLs = false
-disablePathToLower = true
-enableGitInfo = true
 
-[markup]
-  [markup.tableOfContents]
-    endLevel = 3
-    ordered = true
-    startLevel = 2
-  [markup.highlight]
-    style = "dracula"
-    lineNos = true
-    lineNumbersInTable = true
-    guessSyntax = true
-
-[frontmatter]
-  lastmod = ["lastmod", ":git", "date", "publishDate"]
-  publishDate = ["publishDate", "date"]
+[params]
+  description = "Personal knowledge management experiment"
+  sidebar_about_description = "Business process optimizer"
