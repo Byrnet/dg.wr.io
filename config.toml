@@ -1,4 +1,4 @@
-baseURL = "https://dg.wr.io/"
+baseURL = "https://byrnet.github.io/dg.wr.io/"
 languageCode = "en-us"
 relativeURLs = true
 disablePathToLower = true
