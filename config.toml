@@ -31,4 +31,5 @@ enableGitInfo = true
         publishDate = ["publishDate", "date"]
     [markup.goldmark.renderer]
         unsafe = true
-theme="hugo-theme-cleanwhite"
+theme = "hugo-theme-cleanwhite"
+
