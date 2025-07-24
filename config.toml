@@ -1,4 +1,6 @@
+theme = "hugo-theme-cleanwhite"
 baseURL = "https://byrnet.github.io/dg.wr.io/"
+
 languageCode = "en-us"
 relativeURLs = true
 disablePathToLower = true
@@ -31,5 +33,5 @@ enableGitInfo = true
         publishDate = ["publishDate", "date"]
     [markup.goldmark.renderer]
         unsafe = true
-theme = "hugo-theme-cleanwhite"
+
 
