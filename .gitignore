@@ -1,4 +1,6 @@
 .DS_Store
+/public/
+/resources/
 content/in_progress
 content/zettelkasten
 assets/indices/linkIndex.json
